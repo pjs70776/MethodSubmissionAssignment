@@ -9,16 +9,22 @@ namespace MethodSubmissionAssignment
     class Class1
     {
         //method1 takes in two integers
-        public static int method1(int x, int y)
+        public int method1(int x, int z = 1)
         {
-            int Add = x + 5;
-            int Add2 = y + Add;  return Add2;
+            int Add = x + z; return Add;      
         }
-        public static int method2(int a, int b)
+
+        //method2 takes in two integers
+        public int method2(int a, int b = 5)
         {
-            int Subtract = a - 1;
-            int Subtract2 = b - Subtract; return Subtract2;
+            int Add2 = a + b; return Add2;
         }
+        //method2 takes either one or two integers
+        //public int method3(int a, int b)
+        //{
+        //    int Subtract = a - 1; return Subtract; &
+        //    int Subtract2 = b - Subtract; return Subtract2;
+        //}
 
     }
 }
