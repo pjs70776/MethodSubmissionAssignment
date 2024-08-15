@@ -11,6 +11,8 @@ namespace MethodSubmissionAssignment
         //method1 takes in two integers
         public int method1(int x, int z = 1)
         {
-            int Add = x + z; return Add;      
+            int Add = x + z; 
+            return Add;
+        }
     }
 }
