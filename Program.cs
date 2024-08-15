@@ -33,24 +33,7 @@ namespace MethodSubmissionAssignment
             Console.ReadLine();
 
 
-            //ask user to input two numbers. also, let user know they dont need to enter anything for the second number
-            Console.WriteLine("Please enter first number:");
-            int additon3 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("You can enter an integer here, but you dont need too:");
-            //try catch statement
-            try
-            {
-                int additonA = Convert.ToInt32(Console.ReadLine());
-                int sum3 = c1.method2(additon3, additonA);
-                Console.WriteLine(sum3 + " is the answer.");
-            }
-            catch (Exception ex)
-            {
-                int sum3 = c1.method2(additon3);
-                Console.WriteLine(sum3 + " is the answer.");
-            }
-            Console.ReadLine();
+            
         }
     }
 }
